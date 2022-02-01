@@ -1,0 +1,77 @@
+
+
+
+
+body{
+   
+    background-image: linear-gradient( to right , #67FAD8 , #5BDE9A );
+}
+
+
+.corpo{
+    background-color: violet;
+}
+.tela-login{
+    display: block;
+    background-color: black;
+    position: fixed ;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50% , -50%);
+    padding: 50px;
+    border-radius: 15px;
+   
+}
+
+
+
+button{
+    background-image: linear-gradient( to right , #67FAD8 , #5BDE9A );
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+    padding: 10PX;
+    border-style: none;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+
+
+
+
+span{
+    color: yellowgreen;
+}
+input{
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+}
+
+
+
+.cabeca{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.cabeca .titulo {
+    position: absolute;
+    padding: 30px;
+    border-radius: 15px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-image: linear-gradient(to bottom , #6ab2b8a4, #467478a6);
+}
